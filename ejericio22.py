@@ -23,3 +23,5 @@ if (usar_la_fuerza(vector_mochila_de_la_armadura)):
     print("se sacaron: ", cantidad_de_objetos - len(vector_mochila_de_la_armadura), "objetos para localizarlo")
 else:
     print("no hay ningun sable de luz")
+
+    

@@ -15,6 +15,7 @@ def salida_laberinto  (matriz , x , y , caminos=[]):
       
         salida_laberinto(matriz, x, y+1, caminos)
       
+      
         salida_laberinto(matriz, x+1, y, caminos)
       
         salida_laberinto(matriz, x-1, y, caminos)
